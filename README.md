@@ -1,6 +1,6 @@
 # tone-of-voice
 
-A Claude Code skill that learns your brand voice through questions and enforces it across everything you write.
+A Claude Code skill that learns your voice — personal or brand, because sometimes the founder's voice *is* the brand — and enforces it across everything you write.
 
 ## Why
 
