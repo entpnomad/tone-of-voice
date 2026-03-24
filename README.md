@@ -1,59 +1,40 @@
 # tone-of-voice
 
-A Claude Code skill for defining and enforcing a consistent brand voice across all content channels.
+A Claude Code skill that learns your brand voice through questions and enforces it across everything you write.
 
-## What it does
+## How it works
 
-Gives Claude a structured reference for your voice when writing blog posts, social media, emails, READMEs, and any other public-facing copy. Covers non-negotiables, writing rules, channel-specific guidelines, vocabulary tables, and examples — all in one file you own and control.
+First time you run `/tone-of-voice`, it asks 9 questions: who you are, your core belief, your audience, voice traits, vocabulary preferences, banned phrases, channels, and example writing. Answers are saved to Claude Code's memory system — persistent across sessions.
+
+Every time after that, it applies your voice profile to whatever you're writing.
 
 ## Install
 
 ```bash
 mkdir -p ~/.claude/skills/tone-of-voice
-cp SKILL.md ~/.claude/skills/tone-of-voice/SKILL.md
+curl -sL https://raw.githubusercontent.com/entpnomad/tone-of-voice/main/SKILL.md \
+  -o ~/.claude/skills/tone-of-voice/SKILL.md
 ```
 
-## Customize
-
-Edit `SKILL.md` and replace every `[PLACEHOLDER]` with your own details:
-
-| Placeholder | What to fill in |
-|-------------|-----------------|
-| `[YOUR_NAME]` | Your name or brand name |
-| `[YOUR_ROLE]` | What you do |
-| `[YOUR_CORE_TOPICS]` | What you write about |
-| `[YOUR_CENTRAL_THESIS_IN_ONE_SENTENCE]` | The belief that unifies your content |
-| `[YOUR_AUDIENCE]` | Who you're writing for |
-| Vocabulary table | Terms specific to your niche |
-| Channel guidelines | Your actual platforms and CTAs |
-| Examples | Real opening lines from your best content |
-
-The structure is intentionally opinionated — contrarian, direct, anti-fluff. Keep it if it fits. Strip what doesn't.
-
 ## Use
-
-Invoke the skill in any Claude Code session when writing content:
 
 ```
 /tone-of-voice
 ```
 
-Or reference it inline:
+First run: interactive setup (~5 minutes). Subsequent runs: enforcement mode.
 
-```
-Write a Twitter thread about [topic] using my tone-of-voice skill.
-```
+### Commands
 
-Claude will apply your voice guidelines to the output.
+| Command | What it does |
+|---------|-------------|
+| `/tone-of-voice` | Apply voice to current content or start setup |
+| `update my tone-of-voice vocabulary` | Edit a specific section |
+| `show my tone-of-voice` | Display your full voice profile |
 
-## What's in the skill
+## What it saves
 
-- **Voice non-negotiables** — the 5-6 traits that define how you write
-- **Writing rules** — openings, sentence structure, bolding, opinions
-- **Banned phrases** — instant-delete list across all channels
-- **Vocabulary tables** — preferred terms vs. rejected ones
-- **Channel guidelines** — blog, social, email, README, community
-- **Examples** — annotated templates for each content type
+Nine memory files covering your identity, beliefs, audience, traits, topics, vocabulary, banned phrases, channel rules, and reference examples. All stored in Claude Code's memory directory — you own the data.
 
 ## License
 
