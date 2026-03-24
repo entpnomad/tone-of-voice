@@ -2,6 +2,10 @@
 
 A Claude Code skill that learns your brand voice through questions and enforces it across everything you write.
 
+## Why
+
+As a founder, I write most of the communication in my company — newsletters, landing pages, emails, social posts, READMEs. And yes, I unapologetically use AI. The ideas are mine. I dictate the core thinking using [Whispering](https://github.com/braden-w/whispering) on Mac, then have Claude write the draft. But AI without guardrails produces slop. Same structure, same phrasing, same lifeless corporate tone every time. This skill fixes that. It teaches Claude how I sound — my vocabulary, my opinions, my banned phrases — so the output reads like me, not a press release.
+
 ## How it works
 
 First time you run `/tone-of-voice`, it asks 9 questions: who you are, your core belief, your audience, voice traits, vocabulary preferences, banned phrases, channels, and example writing. Answers are saved to Claude Code's memory system — persistent across sessions.
