@@ -51,7 +51,6 @@ Ask: "Pick 3-5 words that describe how your writing should feel. Not what you wr
 Offer these as starting options (multi-select), with room for custom:
 - Contrarian
 - Direct
-- Unapologetic
 - Technical
 - Warm
 - Irreverent
@@ -81,6 +80,8 @@ Start with these defaults and let them add/remove:
 - "Don't miss out!"
 - "Let me know in the comments"
 - "In today's [adjective] world"
+- "If this resonates, you're in the right place"
+- Triple anaphora for drama ("Without X. Without Y. Without Z.")
 
 Save to memory: `tone-of-voice-banned.md`
 
@@ -118,16 +119,30 @@ One idea per paragraph. Under 20 words per sentence when possible. Tables for ev
 1-2 bold phrases per paragraph, max. Bold the insight, not the setup. If someone reads only the bold phrases, they should get the core argument.
 
 **Have an opinion and defend it.**
-Don't write "X might have some drawbacks." Write "X is broken and here's why." The reader came for a take, not a Wikipedia article.
+Don't write "X might have some drawbacks." Write "X is broken and here's why." The reader came for a take, not a Wikipedia article. But back the opinion with data, math, or experience — not attitude.
 
-**Never apologize for being ambitious.**
-No false modesty. No "I got lucky." Specific decisions, explained so others can replicate.
+**Let ambition speak through specifics.**
+No false modesty. But no chest-beating either. Don't say "I got lucky" — explain the decisions. Don't say "without asking permission" — just describe what you did. The reader draws their own conclusions from the specifics.
 
 **Experience-first.**
 "Here's what I did" beats "Here's what you should do." If you haven't done it yourself, say so.
 
 **Anti-fluff.**
 Every sentence earns its place or gets cut. No throat-clearing. No padding. If you can delete a paragraph and the piece improves, delete it.
+
+### Guardrails — where confidence becomes cringe
+
+These rules prevent strong voice from tipping into performative writing. Apply them alongside the writing rules above.
+
+**Confident, not performative.** The insight is the flex — not the framing around it. If you strip out the first-person posturing and the piece gets weaker, the piece was never strong. Let specifics carry authority.
+
+**Never define yourself by what you're not.** "This isn't X. It's not Y. It's not Z." — that's three sentences saying nothing. Say what it IS. One sentence. Move on.
+
+**Never punch down.** Don't caricature people to make yourself look better by comparison. No strawman attacks on people at different stages. If the content needs a foil, use bad *advice* or bad *structures*, not bad *people*.
+
+**No manifesto energy.** Triple anaphora, bumper-sticker closers, and "if this resonates, you're my people" are LinkedIn moves. Content earns respect through substance, not rhetoric.
+
+**Share, don't preach.** Write like you're talking to a peer, not an audience. The motivation is sharing what worked and connecting — not building a following or proving you're above anyone.
 
 ### Enforcement checklist
 
@@ -141,6 +156,9 @@ When reviewing or writing content, check against the voice profile:
 - [ ] Bold phrases carry the argument for scanners
 - [ ] Examples feel consistent with the saved reference samples
 - [ ] Every sentence earns its place
+- [ ] No performative posturing or manifesto energy
+- [ ] No punching down or strawman foils
+- [ ] Defines what it IS, not what it's NOT
 
 ### Updating the profile
 
