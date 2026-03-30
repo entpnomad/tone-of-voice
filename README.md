@@ -2,6 +2,14 @@
 
 A Claude Code skill that learns your voice — personal or brand, because most of the time the founder's voice *is* the brand — and enforces it across everything you write.
 
+## Companion Skills
+
+Works alongside content optimization skills to ensure your voice survives optimization:
+- [ai-rank](https://github.com/entpnomad/ai-rank) — Optimize for LLM answer engines and AI agents, preserving your voice
+- [seo-rank](https://github.com/entpnomad/seo-rank) — SEO audit and optimization that respects your brand tone
+
+Both ai-rank and seo-rank reference tone-of-voice to preserve your voice during content rewrites.
+
 ## Why
 
 As a founder, I write most of the communication in my company — newsletters, landing pages, emails, social posts, READMEs. And yes, I unapologetically use AI. The ideas are mine. I dictate the core thinking using [Whispering](https://github.com/braden-w/whispering) on Mac, then have Claude write the draft. But AI without guardrails produces slop. Same structure, same phrasing, same lifeless corporate tone every time. This skill fixes that. It teaches Claude how I sound — my vocabulary, my opinions, my banned phrases — so the output reads like me, not a press release.
