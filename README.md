@@ -1,6 +1,6 @@
 # tone-of-voice
 
-🌐 [English](README.md) | [Español](README.es.md) | [Français](README.fr.md) | [Italiano](README.it.md)
+🌐 [English](README.md) | [Español](README.es.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [Português](README.pt.md) | [Deutsch](README.de.md)
 
 A Claude Code skill that learns your voice — personal or brand, because most of the time the founder's voice *is* the brand — and enforces it across everything you write.
 
