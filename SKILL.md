@@ -144,6 +144,8 @@ These rules prevent strong voice from tipping into performative writing. Apply t
 
 **Share, don't preach.** Write like you're talking to a peer, not an audience. The motivation is sharing what worked and connecting — not building a following or proving you're above anyone.
 
+**No parroting.** When replying to a post, comment, or review, don't echo the original back — no paraphrasing their words, no "You said X" restatement. Assume the reader saw what you're responding to. Lead with what's new: a counter, a specific, an angle they didn't have.
+
 ### Enforcement checklist
 
 When reviewing or writing content, check against the voice profile:
@@ -159,6 +161,7 @@ When reviewing or writing content, check against the voice profile:
 - [ ] No performative posturing or manifesto energy
 - [ ] No punching down or strawman foils
 - [ ] Defines what it IS, not what it's NOT
+- [ ] No parroting — replies don't echo or paraphrase the original
 
 ### Updating the profile
 
