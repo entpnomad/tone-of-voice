@@ -9,6 +9,7 @@ Ein Claude Code Skill, der deine Stimme lernt — persoenlich oder als Marke, de
 Funktioniert zusammen mit Content-Optimierungs-Skills, damit deine Stimme die Optimierung ueberlebt:
 - [ai-rank](https://github.com/entpnomad/ai-rank) — Optimiert fuer LLM-Antwortmaschinen und KI-Agenten, bewahrt deine Stimme
 - [seo-rank](https://github.com/entpnomad/seo-rank) — SEO-Audit und Optimierung, die deinen Markenton respektiert
+- [copywriting](https://github.com/entpnomad/copywriting) — Schreib Copy, die niemand kopieren kann, und schick sie dann durch tone-of-voice fuer die Stimme
 
 Sowohl ai-rank als auch seo-rank nutzen tone-of-voice, um deine Stimme bei Content-Rewrites zu bewahren.
 
